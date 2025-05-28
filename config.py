@@ -1,0 +1,8 @@
+import os
+
+SQLALCHEMY_DATABASE_URI =  SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or 'sqlite:///atividade.db'
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+
+HOST = '0.0.0.0'
+PORT = 5003
+DEBUG = True
