@@ -4,6 +4,18 @@ Esta API gerencia atividades escolares, permitindo listar, criar atividades, adi
 
 ---
 
+## ⚙ Como Rodar
+
+```bash
+python -m venv venv
+source venv/Scripts/activate
+pip install -r requirements.txt
+docker build -t activities
+docker run -d -p 5003:5003 --name activities activities -d
+```
+
+---
+
 ## 🛠️ Endpoints
 
 ---
